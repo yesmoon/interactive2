@@ -80,8 +80,8 @@
 
 .text {
 	width:400px;
-	text-align: center;
 	padding:30px;
+	padding-left: 300px;
 	margin: 0 auto;
 }
 }

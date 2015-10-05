@@ -1,0 +1,71 @@
+
+
+.cool {
+	border:8px dotted yellow;
+	margin:0 auto;
+	width:332px;
+	margin-top: 40px;
+
+}
+
+.also {
+	border:8px dotted yellow;
+	margin:0 auto;
+	width:316px;
+
+}
+
+.container {
+	width: 300px;
+	margin: 0 auto;
+	border: 8px dotted yellow;
+	text-align: center;
+}
+
+.one {
+	font-size:49px;
+	font-family: impact;
+}
+
+.two {
+	font-size:28px;
+	font-family: impact;
+}
+
+.three {
+	font-size:43px;
+	font-family: impact;
+}
+
+.four {
+	font-size:41px;
+	font-family: impact;
+}
+
+.five {
+	font-size:34px;
+	font-family: impact;
+}
+
+.six {
+	font-size:25px;
+	font-family: impact;
+}
+
+.seven {
+	font-size:73px;
+	font-family: impact;
+	line-height: 65px;
+}
+
+.eight {
+	font-size:96px;
+	font-family: impact;
+	line-height: 80px;
+}
+
+.nine {
+	font-size:42px;
+	font-family: impact;
+	line-height: 50px;
+}
