@@ -1,0 +1,8 @@
+#container {
+	width:100% absolute;
+	height: 100% absolute;
+	border: 200px solid black;
+	margin:0 auto;
+	padding: 35px;
+	text-align: center;
+}
