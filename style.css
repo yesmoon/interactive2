@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-	width:1000px;
+	width:100%;
 	margin:0 auto;
 	margin-top:20px;
 }
@@ -14,16 +14,27 @@ body {
 	font-size: 40px;
 	width: 800px;
 	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+	text-align: right;
 }
 
 .head p {
-	font-size: 20px;
+	font-size: 14px;
+	background-color: #f2cad3;
+}
+
+.head img {
+	height: 210px;
 }
 
 .links {
 	width: 500px;
 	float: left;
-	margin-top: 40px;
+	background-color: white;
+	margin-left:740px;
+	margin-top: 200px;
+	position: fixed;
 }
 .links a {
 	font-size: 11px;
@@ -32,7 +43,7 @@ body {
 
 }
 .links a:hover {
-	color:pink;
+	background-color:#f2cad3;
 	font-weight: normal;
 
 }
