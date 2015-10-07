@@ -1,0 +1,300 @@
+
+::selection {
+  background:black; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background:black; /* Gecko Browsers */
+}
+
+
+
+.text {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+
+}
+
+.text2 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	display: block;
+	position: fixed;
+	padding-top:50px;
+	padding-bottom:65px;
+	
+	display: block;
+	
+}
+
+.text3 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #c4ece9;
+
+}
+
+.text4 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #b3dcd9;
+
+}
+
+.text5 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #a3cbc8;
+
+}
+
+.text6 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #8fbbb7;
+
+}
+
+.text7 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #7fa5a2;
+
+}
+
+.text8 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #6f9895;
+
+}
+
+.text9 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #5c8a86;
+
+}
+
+.text10 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #4b6f6c;
+
+}
+
+.text11 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #3d605d;
+
+}
+
+.text12 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #34514f;
+
+}
+
+.text13 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #273d3b;
+
+}
+
+.text14 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #182524;
+
+}
+
+.text15 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #112120;
+
+}
+
+.text16 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #0a1615;
+
+}
+
+.text17 {
+	text-align: center;
+	font-family: courier;
+	font-size:12px;
+	line-height: 1.3em;
+	margin:0 auto;
+	color: black;
+	width: 350px;
+	padding-top:50px;
+	padding-bottom:85px;
+	
+	display: block;
+	
+	background-color: #000000;
+
+}
+
+
+

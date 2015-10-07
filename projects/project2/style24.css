@@ -1,0 +1,26 @@
+
+::selection {
+  background:#152473; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background:#152473; /* Gecko Browsers */
+}
+
+
+
+.text {
+	text-align: center;
+	font-family: Georgia;
+	font-size:10px;
+	line-height: 1.4em;
+	margin:0 auto;
+	color: white;
+	width: 350px;
+	padding-top:70px;
+	padding-bottom:85px;
+	display: block;
+	border: 1px dotted black;
+	margin-top: 100px;
+	
+
+}
