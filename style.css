@@ -1,0 +1,44 @@
+body {
+	font-family: Courier;
+	font-weight: normal;
+}
+
+#main {
+	width:1000px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+
+.head {
+	font-size: 40px;
+	width: 800px;
+	float: left;
+}
+
+.head p {
+	font-size: 20px;
+}
+
+.links {
+	width: 500px;
+	float: left;
+	margin-top: 40px;
+}
+.links a {
+	font-size: 11px;
+	color:black;
+	font-weight: normal;
+
+}
+.links a:hover {
+	color:pink;
+	font-weight: normal;
+
+}
+.links li {
+	color:black;
+	font-weight: normal;
+
+}
+
