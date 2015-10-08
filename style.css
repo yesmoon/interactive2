@@ -1,3 +1,10 @@
+::selection {
+  background: #2f2f2f; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #2f2f2f; /* Gecko Browsers */
+}
+
 body {
 	font-family: Courier;
 	font-weight: normal;
