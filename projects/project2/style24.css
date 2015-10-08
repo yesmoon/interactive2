@@ -1,9 +1,9 @@
 
 ::selection {
-  background:#152473; /* WebKit/Blink Browsers */
+  background:#216eff; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background:#152473; /* Gecko Browsers */
+  background:#216eff; /* Gecko Browsers */
 }
 
 
