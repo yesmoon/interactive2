@@ -1,0 +1,72 @@
+::selection {
+  background: #ff213b; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff213b; /* Gecko Browsers */
+}
+
+
+.poem {
+	width: 300px;
+	background-color: #373737;
+	position: fixed;
+	font-weight: normal;
+	right: 500px;
+	top: 255px;
+	padding: 10px;
+	color: white;
+}
+
+
+h1 {
+	font-size: 230px;
+	font-family: georgia;
+	color:#282828;
+	background-color: white;
+	padding: 5px;
+	margin:0px;
+	margin-left: 50px;
+	margin-top:-50px;
+}
+
+h2 {
+	font-size: 16px;
+	font-family: georgia;
+	font-weight: normal;
+	padding: 5px;
+	margin:0px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 13px;
+	line-height: 1.5em;
+	padding: 5px;
+	font-weight: normal;
+	margin:0px;
+}
+
+ul li {
+	padding:4px;
+	font-family: courier;
+	text-align: center;
+	list-style: none;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 300px;
+}
+ul li a {
+	color: white;
+	padding: 5px;
+	font-size:11px;
+	text-decoration: none;
+
+}
+
+ul li a:hover {
+	color: #ff213b;
+	text-decoration: none;
+
+}
+
