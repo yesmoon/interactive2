@@ -1,8 +1,10 @@
+
 #left {
 	width:10px;
 	height: 100%;
 	position: fixed;
-	background-color:white;
+	top: 0;
+	background-color:;
 	margin-left: -10px;
 	margin-top:0px;
 	-o-transition:.5s;
@@ -15,7 +17,36 @@
 }
 
 
+
 #left:hover {
+		background-color: #ff213b;
+		cursor:default;
+		width: 40px;
+	}
+
+
+
+#right {
+	width:10px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color:;
+	margin-left: -10px;
+	margin-top:0px;
+	-o-transition:.5s;
+	  -ms-transition:.5s;
+	  -moz-transition:.5s;
+	  -webkit-transition:.5s;
+	  /* ...and now for the proper property */
+	  transition:.5s;
+
+}
+
+
+
+#right:hover {
 		background-color: #ff213b;
 		cursor:default;
 		width: 40px;
