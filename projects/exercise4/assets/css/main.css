@@ -18,9 +18,6 @@ body {
 	background: #f19d1a;
 }
 
-.canvas.two {
-	background:yellow;
-}
 
 .object {
 	position:absolute;
@@ -89,4 +86,128 @@ body {
 	bottom:-10.5px;
 	left:9.5px;
 
+}
+
+
+/*Canvas 2*/
+
+.canvas.two {
+	background:#74bce5;
+}
+
+.vase-container {
+	height:270px;
+	width: 100px;
+	background:;
+	bottom:160px;
+	left:250px;
+
+}
+
+.vase-container .glass {
+
+	bottom: 0;
+    border-bottom: 270px solid white;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 3% 3% 10% 10%;
+    width: 90px;
+    opacity: 0.6;
+    /*z-index: 90;*/
+
+}
+
+.vase-container .top {
+	width: 71.5px;
+	height:30px;
+	border-radius: 50%;
+	background-color: #74bce5;
+	border: 1px solid white;
+	top:-12px;
+	left: 9px;
+	/*opacity: 0.6;*/
+	/*z-index: 90;*/ 
+}
+
+.stems {
+	bottom: 0;
+    border-bottom: 350px solid #237011;
+    border-left: 6px solid transparent;
+    border-radius: 20% 80% 10% 10%;
+    width: 10px;
+    left: 14px;
+}
+
+.stems.one {
+	left:24px;
+	border-bottom: 350px solid #34921e;
+}
+
+.stems.two {
+	left:34px;
+	border-bottom: 350px solid #4cac36;
+}
+
+.stems.three {
+	left:44px;
+	border-bottom: 350px solid #237011;
+}
+
+.stems.four {
+	left:54px;
+	border-bottom: 350px solid #34921e;
+}
+
+.stems.five {
+	left:64px;
+	border-bottom: 350px solid #4cac36;
+}
+
+.petal {
+	background: #8b44b4;
+	height: 20px;
+	width: 30px;
+	border-radius: 40% 60% 50% 40%;
+	border:1px solid #a969ce;
+	top:-80px;
+	left:-5px;
+}
+
+.petal.one {
+	left: 7px;
+	top: -95px;
+    border-radius: 70% 30% 70% 40%;
+}
+
+.petal.two {
+	left: 15px;
+	top: -85px;
+	height: 23px;
+    border-radius: 30% 70% 40% 70%;
+}
+
+.petal.three {
+	left: 25px;
+	top: -65px;
+	height: 23px;
+    border-radius: 70% 25% 60% 40%;
+}
+
+.petal.four {
+	left: 38px;
+	top: -80px;
+    border-radius: 40% 60% 35% 80%;
+}
+
+.petal.five {
+	left: 58px;
+	top: -95px;
+	height: 26px;
+    border-radius: 60% 40% 80% 35%;
+}
+
+.petal.six {
+	left: 58px;
+	top: -65px;
+    border-radius: 40% 60% 70% 80%;
 }
