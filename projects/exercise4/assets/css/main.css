@@ -47,6 +47,18 @@ body {
     border-right: 39px dotted #023e0f;
 }
 
+.squash.two {
+	background: #e27a0b;
+    height: 71px;
+    width: 73px;
+    border-radius: 60% 70% 63% 55%;
+    top: 340px;
+    right: 460px;
+    border-left: 10px dotted #023e0f;
+    border-right: 10px dotted #023e0f;
+    z-index: 10;
+}
+
 /*Water Glass*/
 
 .water-glass-container {
@@ -210,4 +222,15 @@ body {
 	left: 58px;
 	top: -65px;
     border-radius: 40% 60% 70% 80%;
+}
+
+.eraser {
+	background-color: #3b3b3d;
+	width:60px;
+	height: 27px;
+	top:374px;
+	right:410px;
+	border-radius: 8%;
+	border-bottom: 8px solid #5b5b5b;
+
 }
