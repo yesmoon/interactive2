@@ -1,6 +1,6 @@
 
 #left {
-	width:10px;
+	width:40px;
 	height: 100%;
 	position: fixed;
 	top: 0;
@@ -27,7 +27,7 @@
 
 
 #right {
-	width:10px;
+	width:40px;
 	height: 100%;
 	position: fixed;
 	top: 0;
