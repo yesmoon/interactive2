@@ -1,0 +1,331 @@
+/*Base */
+
+body {
+	background-color: white;
+}
+
+p {
+	font-family: Courier;
+	font-size: 25px;
+}
+
+.sad {
+	width:200px;
+	height: 228px;
+	background-size: 100%;
+	background-image: url('../images/00.jpg');
+}
+
+.one {
+	display: block;
+	margin-left:25px;
+}
+
+.two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  	margin-left: 25px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/01.jpg');
+  }
+
+  .two {
+  	display: block;
+  }
+
+  .one, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 994px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/02.jpg');
+  }
+  .three {
+  	display: block;
+  }
+  
+  .one, .two, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 964px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/03.jpg');
+  }
+
+   .four {
+  	display: block;
+  }
+  
+  .one, .two, .three, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 934px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/04.jpg');
+  }
+
+  .five {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+
+}
+
+@media screen and (max-width: 904px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/05.jpg');
+  }
+
+  .six {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 874px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/06.jpg');
+  }
+
+  .seven {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 844px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/07.jpg');
+  }
+
+  .eight {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 814px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/08.jpg');
+  }
+
+  .nine {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 784px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/09.jpg');
+  }
+
+  .ten {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 754px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/10.jpg');
+  }
+
+  .eleven {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .twelve, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 724px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/11.jpg');
+  }
+
+  .twelve {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .thirteen, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 694px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/12.jpg');
+  }
+
+  .thirteen {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .fourteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 664px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/13.jpg');
+  }
+
+  .fourteen {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fifteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 634px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/14.jpg');
+  }
+
+  .fifteen {
+  	display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .sixteen {
+  	display: none;
+  }
+
+}
+
+@media screen and (max-width: 604px) {
+ 
+  body { 
+  	background: black; 
+  }
+
+  .sad {
+  	background-image:url('../images/15.jpg');
+  }
+
+  .sixteen {
+  	display: block;
+  	color: white;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen {
+  	display: none;
+  }
+
+}
+

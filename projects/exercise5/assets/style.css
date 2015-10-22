@@ -1,0 +1,39 @@
+/*Base */
+
+body {
+	background-color: white;
+}
+
+.sad {
+	width:200px;
+	height: 456px;
+	background-size: 100%;
+	background-image: url('../images/1.jpg');
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/1.jpg');
+  }
+
+}
+
+@media screen and (max-width: 974px) {
+ 
+  body { 
+  	background: white; 
+  }
+
+  .sad {
+  	background-image: url('../images/2.jpg');
+  }
+
+}
+
