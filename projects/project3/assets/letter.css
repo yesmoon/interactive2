@@ -1,0 +1,42 @@
+.H {
+position:relative;
+top:10px;
+left:10px;
+width:60px;
+height:140px;
+border-width:0 16px 0 16px;
+border-color:#000000;
+border-style:solid;
+}
+
+.H:before {
+position:absolute;
+content:'';
+top:30px;
+left:0;
+width:60px;
+height:14px;
+background-color:#000000;
+}
+
+
+.H2 {
+position:absolute;
+top:10px;
+left:10px;
+width:60px;
+height:140px;
+border-width:0 16px 0 16px;
+border-color:#FF00FF;
+border-style:solid;
+}
+
+.H2:before {
+position:absolute;
+content:'';
+top:30px;
+left:0;
+width:60px;
+height:14px;
+background-color:#FF00FF;
+}
