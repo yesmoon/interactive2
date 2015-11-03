@@ -1,0 +1,113 @@
+body {
+	padding:20px;
+}
+
+.letter {
+	width: 155px;
+    height: 174px;
+    display: inline-block;
+    background: aqua;
+}
+
+.a {
+	width:100px;
+	position: relative;
+}
+
+.a .left {
+    width: 25px;
+    height: 176px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(23deg);
+    left: 14px;
+}
+
+.a .right {
+    width: 25px;
+    height: 176px;
+    background-color: #000000;
+    position: absolute;
+    transform: rotate(-23deg);
+    right: -4px;
+}
+
+.a .middle {
+    height: 26px;
+    width: 44px;
+    background-color: #000000;
+    position: absolute;
+    top: 65px;
+    left: 38px;
+}
+
+
+.a .top {
+    height: 0;
+    width: 0;
+    top: -18px;
+    left: 45px;
+    position: absolute;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 31.5px solid black;
+}
+
+.a2 {
+	width:100px;
+	position: relative;
+}
+
+.a2 .left {
+    width: 20px;
+    height: 174px;
+    background-color: #000000;
+    position: absolute;
+    transform: skew(-12deg);
+    left: 18px;
+}
+
+.a2 .right {
+    width: 20px;
+    height: 174px;
+    background-color: #000000;
+    position: absolute;
+    transform: skew(12deg);
+    left: 64px;
+}
+
+.a2 .middle {
+	position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 25px;
+    top: 55px;
+    background-color: #000000;
+}
+
+.b {
+	width: 100px;
+	position: relative;
+}
+
+.b .left {
+	width: 20px;
+	position: absolute;
+	height: 170px;
+	background-color: #000000;
+
+}
+
+.b .top {
+    border: 20px solid black;
+    border-radius: 0 300% 300% 0 /0 180% 180% 0;
+    width: 23px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.b .top.two {
+	top: 84px;
+}
