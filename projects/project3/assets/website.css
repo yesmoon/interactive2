@@ -10,6 +10,33 @@ body {
     transform: scale(1);
 }
 
+#back {
+    z-index: 888;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100px;
+    height: 40px;
+}
+
+/* unvisited link */
+#back a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+#back a:hover {
+    color: black;
+    background-color: deeppink;
+}
+
+/* mouse over link */
+#back a:visited {
+    color: black;
+
+}
 
 .everywhere {
     position: fixed;

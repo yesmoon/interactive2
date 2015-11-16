@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+/*.cool {
+	background:aqua;
+	height:300px;
+	width: 300px;
+	border: 20px inset red;
+}*/
+
+body {
+	margin: 50px;
+}
+
+.letter {
+	width:200px;
+	height:450px;
+	background: magenta;
+	/*float:left; this is not the best*/
+	display: inline-block;
+	margin:0 5px 5px 0;
+	position: relative;
+
+}
+
+.letter.h .v1,
+.letter.n .v1 {
+	position: absolute;
+	left:0;
+	height:100%;
+	width:5px;
+	background: black;
+}
+
+.letter.h .v2,
+.letter.n .v2 {
+	position: absolute;
+	right:0;
+	height:100%;
+	width:5px;
+	background: black;
+}
+
+.letter.h .h1 {
+	position: absolute;
+	top:30%;
+	width: 100%;
+	height:5px;
+	background: black;
+}
+
+.letter.o .c1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom:0;
+	border:5px solid black;
+	border-radius: 50%;
+}
+
+.letter.d .c1 {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	border:5px solid black;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.letter.n .d1 {
+	position: absolute;
+	height: 5px;
+	width: 400px;
+	background:black;
+	
+
+}
