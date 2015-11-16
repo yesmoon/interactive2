@@ -1,9 +1,16 @@
 body {
-	padding:20px;
+	padding:40px;
 /*    background-image: url('hodnop-alphabet.png');*/
     background-size: 70%;
     background-position: fixed;
 }
+
+.container {
+    width: 100%;
+    transform: scale(1);
+}
+
+
 .everywhere {
     position: fixed;
     top: 0;
@@ -16,7 +23,7 @@ body {
 
 
 .letter {
-	width: 61px;
+	width: 1px;
     height: 124px;
     display: inline-block;
     /*border: 2px solid blue;*/
