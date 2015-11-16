@@ -32,3 +32,12 @@ a:visited {
 	margin-top:50px;
 
 }
+
+#back {
+    z-index: 888;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100px;
+    height: 40px;
+}
