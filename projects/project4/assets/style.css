@@ -1,0 +1,61 @@
+::-moz-selection { /* Code for Firefox */
+    color: #736e63;
+    background: black;
+}
+
+::selection {
+    color: #736e63; 
+    background: black;
+}
+
+body {
+	background-color: #161616;
+	background-image: url('images/background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px 50px;
+	background-size: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.container {
+	width:100%;
+	height: 100%;
+	background-size: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+.mainlogo {
+	width: 300px;
+	background-color: ;
+	margin: 0 auto;
+}
+
+.mainlogo img {
+	width: 100%;
+}
+
+.intro {
+	width: 600px;
+	background-color: ;
+	margin: 0 auto;
+	margin-top: 86px;
+}
+
+.intro h1 {
+	font-family: 'Droid Sans', sans-serif;
+	color: #0078ff;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+}
