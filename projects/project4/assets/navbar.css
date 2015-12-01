@@ -1,0 +1,154 @@
+/*UNIVERSAL STYLING I GUESS-------------------------*/
+
+::-moz-selection { /* Code for Firefox */
+    color: #736e63;
+    background: black;
+}
+
+::selection {
+    color: #736e63; 
+    background: black;
+}
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+	background-color: #161616;
+	background-image: url('images/background2.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px -150px;
+	background-size: 100%;
+}
+
+
+
+
+/*NAV BAR FOR ALL PAGES-------------------------*/
+
+.bar {
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	padding: 5px;
+	
+}
+
+.logo {
+	width: 280px;
+	height: 100%;
+	background-image: url('images/small.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: inline-block;
+}
+
+.navigation {
+	width: 700px;
+	height: 60px;
+	display:inline-block;
+	margin: 0 auto;
+	float: right;
+	margin-top: 40px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    width: 150px;
+    background-color: black;
+    height: 100%;
+    padding: 10px;
+ 	text-align: center;
+ 	font-family: 'Droid Sans', sans-serif;
+ 	text-transform: uppercase;
+ 	letter-spacing: 1px;
+ 	color: white;
+}
+
+.navigation li a {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: #157cfb;
+}
+
+
+
+/*BOTTOM FOOTER----------------------------------*/
+
+.footer {
+	width: 100%;
+	height:90px;
+	margin-top: 50px;
+	position: relative;
+
+}
+
+.app {
+	width: 210px;
+	height: 35px;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top:10px;
+}
+
+.app img {
+	width: 100px;
+}
+
+.media {
+	width: 150px;
+	position: absolute;
+	top:55px;
+	left: 10px;
+
+}
+
+.media img {
+	width:30px;
+	margin-right: 3px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

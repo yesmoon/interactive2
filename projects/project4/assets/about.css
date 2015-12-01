@@ -1,0 +1,63 @@
+/*-----------ABOUT PAGE---------------------*/
+
+.about {
+	width: 900px;
+	height: 500px;
+	background-size: 100%;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+
+.sumtext {
+	width: 600px;
+	background-color:;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.sumtext p {
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 1.6em;
+
+}
+
+.float {
+	width: 325px;
+	height: 325px;
+	border-radius: 50%;
+	background-image: url('images/background3.png');
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: -360px 0px;
+	position: absolute;
+	top:290px;
+	left:150px;
+	opacity: 0.8;
+	z-index: -99;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

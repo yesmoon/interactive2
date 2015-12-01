@@ -1,163 +1,25 @@
-::-moz-selection { /* Code for Firefox */
-    color: #736e63;
-    background: black;
-}
 
-::selection {
-    color: #736e63; 
-    background: black;
-}
+/*-----------APP---------------------*/
 
-* { 
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
-}
-
-body {
-	background-color: #161616;
-	background-image: url('images/background2.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0px -150px;
-	background-size: 100%;
-}
-
-.bar {
-	width: 100%;
-	height: 100px;
-	background-color:;
-	margin: 0 auto;
-	padding: 20px;
-	position: relative;
-}
-
-.logo {
-	width: 110px;
-	height: 100%;
-	background-image: url('images/bluelogo.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	display: inline-block;
-}
-
-.navigation {
-	width: 1000px;
-	height: 100%;
-	display:inline-block;
-	margin: 0 auto;
-	float: right;
-}
-
-.navigation ul {
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    margin-right: 10px;
-    padding: 0;
-}
-
-.navigation li {
-    display: inline-block;
-    width: 150px;
-    background-color: black;
-    height: 100%;
-    padding: 10px;
- 	text-align: center;
- 	font-family: 'Droid Sans', sans-serif;
- 	text-transform: uppercase;
- 	letter-spacing: 1px;
- 	color: white;
-}
-
-.navigation li a {
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.navigation li a:hover {
-    color: #157cfb;
-}
 
 .iphone {
 	background-image: url('images/iphone.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	display: inline-block;
 	width:230px;
 	height:500px;
-	margin: 0 auto;
-	margin-top:40px;
-
-}
-
-
-/*-----------ABOUT PAGE---------------------*/
-
-.about {
-	width: 900px;
-	height: 500px;
-	background-size: 100%;
-	margin: 0 auto;
-	margin-top: 70px;
-}
-
-.cool {
-	width: 200px;
-	margin:0 auto;
-}
-.cool img {
-	width: 200px;
-}
-
-.sumtext {
-	width: 730px;
-	background-color:;
-	margin: 0 auto;
+	margin-left:300px;
 	margin-top:30px;
-}
-
-.sumtext p {
-	font-family: 'Droid Sans', sans-serif;
-	color: white;
-	font-size: 14px;
-	line-height: 1.6em;
 
 }
 
-.float {
-	width: 325px;
-	height: 325px;
-	border-radius: 50%;
-	background-image: url('images/background3.png');
-	background-repeat: no-repeat;
-	background-size: 700px;
-	background-position: -360px 0px;
-	position: absolute;
-	top:290px;
-	left:100px;
-	opacity: 0.6;
-	z-index: -99;
+.how {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	margin-left: 20px;
+	background-color: yellow;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
