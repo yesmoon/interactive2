@@ -36,7 +36,7 @@ a:hover {
 
 
 .mainlogo {
-	width: 140px;
+	width: 340px;
 	display: block;
 	background-color: ;
 	margin: 0 auto;
@@ -49,7 +49,7 @@ a:hover {
 .intro {
 	width: 600px;
 	margin: 0 auto;
-	margin-top: 86px;
+	margin-top: 136px;
 	display: block;
 	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */

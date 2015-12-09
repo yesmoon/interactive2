@@ -1,12 +1,12 @@
 /*UNIVERSAL STYLING I GUESS-------------------------*/
 
 ::-moz-selection { /* Code for Firefox */
-    color: #736e63;
+    color: white;
     background: black;
 }
 
 ::selection {
-    color: #736e63; 
+    color: white; 
     background: black;
 }
 
@@ -47,47 +47,30 @@ body {
 	display: inline-block;
 }
 
-.navigation {
-	width: 700px;
-	height: 60px;
-	display:inline-block;
-	margin: 0 auto;
-	float: right;
-	margin-top: 40px;
+
+
+#toes ul {
+	list-style-type: none;
+	padding:0px;
+
 }
 
-.navigation ul {
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    margin-right: 10px;
-    padding: 0;
+#toes li {
+	color: #0078ff;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 15px;
+	text-transform: uppercase;
 }
 
-.navigation li {
-    display: inline-block;
-    width: 150px;
-    background-color: black;
-    height: 100%;
-    padding: 10px;
- 	text-align: center;
- 	font-family: 'Droid Sans', sans-serif;
- 	text-transform: uppercase;
- 	letter-spacing: 1px;
- 	color: white;
+#toes li a {
+    color: #0078ff;
 }
 
-.navigation li a {
+#toes li a:hover {
     color: white;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
 }
-
-.navigation li a:hover {
-    color: #157cfb;
-}
-
 
 
 /*BOTTOM FOOTER----------------------------------*/
@@ -128,9 +111,18 @@ body {
 	display: inline-block;
 }
 
+#iphone-slides {
+	position:relative;
+    width:204px;
+    height:360px;
+    overflow:hidden;
+    top: 56px;
+    left: 14px;
+}
 
-
-
+#iphone-slides img {
+	max-width: 100%;
+}
 
 
 

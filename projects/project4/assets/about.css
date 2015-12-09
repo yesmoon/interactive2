@@ -9,6 +9,7 @@
 }
 
 
+
 .sumtext {
 	width: 600px;
 	background-color:;
@@ -16,11 +17,17 @@
 	margin-top:50px;
 }
 
+.sumtext h1 {
+	font-family: 'Droid Sans', sans-serif;
+	color:white;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 .sumtext p {
 	font-family: 'Droid Sans', sans-serif;
 	color: white;
-	font-size: 16px;
-	letter-spacing: 1px;
+	font-size: 20px;
 	line-height: 1.6em;
 
 }
