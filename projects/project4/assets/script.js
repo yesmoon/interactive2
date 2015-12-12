@@ -23,4 +23,21 @@ $(document).ready(function(){
         },3000);
     }
 
+
+// // $(document).ready(function(){
+//     var img = document.getElementById('iphone-slides');
+//     var images = $('img');
+//     var counter = 0;
+
+//     if(counter <= images.length){
+//         setInterval(function(){
+//             $(images).hide();
+//             $(images[counter]).show();
+//             counter++;
+
+//             if(counter === images.length){
+//                 counter = 0;
+//             }
+//         },3000);
+//     }
 });

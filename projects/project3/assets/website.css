@@ -10,13 +10,25 @@ body {
     transform: scale(1);
 }
 
+.big {
+    width: 100%;
+    transform: scale(6);
+    position: absolute;
+    left: 900px;
+    top: 250px;
+}
+
 #back {
     z-index: 888;
     position: fixed;
-    top:0;
-    left:0;
+    bottom:0;
+    right:0;
     width: 100px;
-    height: 40px;
+    height: 60px;
+    padding-right: 20px;
+    text-align: right;
+
+
 }
 
 /* unvisited link */
@@ -29,7 +41,7 @@ body {
 /* mouse over link */
 #back a:hover {
     color: black;
-    background-color: deeppink;
+    background-color: yellow;
 }
 
 /* mouse over link */
@@ -53,7 +65,7 @@ body {
 	width: 1px;
     height: 124px;
     display: inline-block;
-    /*border: 2px solid blue;*/
+    /*border: 2px solid fuchsia;*/
 }
 
 
@@ -76,7 +88,7 @@ body {
 .a .right {
     width: 12px;
     height: 99px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(8deg);
@@ -85,12 +97,12 @@ body {
 }
 
 .a .middle {
-    width: 18px;
+    width: 32px;
     height: 11px;
     background-color: red;
     opacity: 0.45;
     position: absolute;
-    left: 20px;
+    left: 14px;
     top: 53px;
 }
 
@@ -102,7 +114,7 @@ body {
 .b .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 11px;
@@ -110,7 +122,7 @@ body {
 }
 
 .b .top {
-    border: 12px solid orange;
+    border: 12px solid fuchsia;
     opacity: 0.45;
     border-radius: 0 300% 300% 0 /0 180% 180% 0;
     width: 8px;
@@ -121,7 +133,7 @@ body {
 }
 
 .b .bottom {
-    border: 12px solid orange;
+    border: 12px solid fuchsia;
     opacity: 0.45;
     border-radius: 0 300% 300% 0 /0 180% 180% 0;
     width: 18px;
@@ -137,7 +149,7 @@ body {
 }
 
 .c .left {
-    border: 14px solid blue;
+    border: 14px solid fuchsia;
     opacity: 0.5;
     border-radius: 50%;
     width: 55px;
@@ -165,7 +177,7 @@ body {
 }
 
 .d .whole {
-    border: 12px solid orange;
+    border: 12px solid fuchsia;
     opacity: 0.5;
     border-radius: 0 300% 300% 0 /0 180% 180% 0;
     width: 20px;
@@ -183,7 +195,7 @@ body {
 .e .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 8px;
@@ -191,32 +203,32 @@ body {
 }
 
 .e .top {
-    width: 29px;
+    width: 40px;
     height: 14px;
     background-color: cyan;
     position: absolute;
     top: 20px;
-    left: 19px;
+    left: 8px;
     opacity: 0.4;
 }
 
 .e .middle {
-    width: 29px;
+    width: 40px;
     height: 14px;
     background-color: red;
     position: absolute;
     top: 48px;
-    left: 19px;
+    left: 8px;
     opacity: 0.4;
 }
 
 .e .bottom {
-    width: 29px;
+    width: 40px;
     height: 14px;
     background-color: cyan;
     position: absolute;
     top: 105px;
-    left: 19px;
+    left: 8px;
     opacity: 0.4;
 }
 
@@ -228,7 +240,7 @@ body {
 .f .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 11px;
@@ -236,22 +248,22 @@ body {
 }
 
 .f .top {
-    width: 29px;
+    width: 40px;
     height: 14px;
     background-color: cyan;
     position: absolute;
     top: 20px;
-    left: 22px;
+    left: 12px;
     opacity: 0.4;
 }
 
 .f .middle {
-    width: 29px;
+    width: 40px;
     height: 14px;
     background-color: red;
     position: absolute;
     top: 48px;
-    left: 22px;
+    left: 11px;
     opacity: 0.4;
 }
 
@@ -261,7 +273,7 @@ body {
 }
 
 .g .left {
-    border: 15px solid blue;
+    border: 15px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 55px;
@@ -285,17 +297,17 @@ body {
 
 .g .right {
     width: 12px;
-    height: 70px;
-    background-color: deeppink;
+    height: 68px;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
-    left: 41px;
+    left: 36px;
     top: 49px;
     z-index: -4;
 }
 
 .g .middle {
-    width: 27px;
+    width: 22px;
     height: 14px;
     background-color: red;
     opacity: 0.4;
@@ -313,7 +325,7 @@ body {
 .h .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 5px;
@@ -323,7 +335,7 @@ body {
 .h .right {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 44px;
@@ -348,7 +360,7 @@ body {
 .i .whole {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 25px;
@@ -367,7 +379,7 @@ body {
     width: 17px;
     height: 28px;
     border-width: 0 12px 12px 12px;
-    border-color: pink;
+    border-color: lime;
     opacity: 0.4;
     border-style: solid;
   
@@ -388,8 +400,8 @@ body {
 
 .j .right {
     width: 12px;
-    height: 66px;
-    background-color: deeppink;
+    height: 60px;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     top: 20px;
@@ -404,7 +416,7 @@ body {
 .k .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     position: absolute;
     opacity: 0.4;
     left: 8px;
@@ -413,7 +425,7 @@ body {
 
 .k .top {
     width: 12px;
-    height: 55px;
+    height: 35px;
     background-color: mediumspringgreen;
     opacity: 0.45;
     position: absolute;
@@ -424,13 +436,13 @@ body {
 
 .k .bottom {
     width: 12px;
-    height: 66px;
-    background-color: fuchsia;
+    height: 63px;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(22deg);
-    left: 24px;
-    top: 54px;
+    left: 28px;
+    top: 55px;
 }
 
 .l {
@@ -441,7 +453,7 @@ body {
 .l .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     position: absolute;
     left: 6px;
@@ -449,13 +461,13 @@ body {
 }
 
 .l .bottom {
-    width:40px;
+    width: 40px;
     height: 12px;
     background-color: cyan;
     opacity: 0.4;
     position: absolute;
     top: 107px;
-    left: 11px;
+    left: 6px;
 }
 
 .m {
@@ -466,7 +478,7 @@ body {
 .m .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     position: absolute;
     opacity: 0.4;
     left: 4px;
@@ -478,7 +490,7 @@ body {
      width: 12px;
     height: 99px;
     position: absolute;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     right: -2px;
     top:20px;
@@ -498,7 +510,7 @@ body {
 .m .bottom {
     width: 12px;
     height: 55px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(21deg);
@@ -515,7 +527,7 @@ body {
      width: 12px;
     height: 99px;
     position: absolute;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     left: 5px;
     top:20px;
@@ -525,7 +537,7 @@ body {
      width: 12px;
     height: 99px;
     position: absolute;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     right: -3px;
     top:20px;
@@ -534,12 +546,12 @@ body {
 .n .middle {
     width: 12px;
     height: 99px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(22deg);
     left: 26px;
-    top: 21px;
+    top: 20px;
 }
 
 .o {
@@ -548,7 +560,7 @@ body {
 }
 
 .o .whole {
-    border: 15px solid gold;
+    border: 15px solid fuchsia;
     opacity: 0.5;
     border-radius: 50%;
     width: 58px;
@@ -567,21 +579,21 @@ body {
     width: 12px;
     height: 99px;
     position: absolute;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     left: 12px;
     top: 20px;
 }
 
 .p .right {
-    border: 12px solid orange;
+    border: 12px solid blue;
     opacity: 0.45;
     border-radius: 0 300% 300% 0 /0 180% 180% 0;
     width: 9px;
     height: 19px;
     position: absolute;
-    top: 18px;
-    left: 13px;
+    top: 20px;
+    left: 12px;
 }
 
 .q {
@@ -590,7 +602,7 @@ body {
 }
 
 .q .left {
-    border: 15px solid gold;
+    border: 15px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 58px;
@@ -603,7 +615,7 @@ body {
 .q .right {
     width: 17px;
     height: 20px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     transform: skew(40deg);
     position: absolute;
@@ -620,32 +632,32 @@ body {
     width: 12px;
     height: 99px;
     position: absolute;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     left: 11px;
     top: 20px;
 }
 
 .r .top {
-    border: 12px solid orange;
+    border: 12px solid fuchsia;
     opacity: 0.45;
     border-radius: 0 300% 300% 0 /0 180% 180% 0;
     width: 9px;
     height: 19px;
     position: absolute;
     top: 19px;
-    left: 12px;
+    left: 11px;
 }
 
 .r .bottom {
     width: 12px;
-    height: 67px;
-    background-color: fuchsia;
+    height: 69px;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(22deg);
-    left: 27px;
-    top: 52px;
+    left: 24px;
+    top: 50px;
 }
 
 .s {
@@ -656,7 +668,7 @@ body {
 
 
 .s .top {
-    border: 13px solid crimson;
+    border: 13px solid fuchsia;
     border-right-color: white;
     opacity: 0.45;
     border-radius: 50%;
@@ -670,7 +682,7 @@ body {
 
 
 .s .bottom {
-    border: 13px solid gold;
+    border: 13px solid fuchsia;
     border-left-color: white;
     opacity: 0.45;
     border-radius: 50%;
@@ -724,7 +736,7 @@ body {
 .t .bottom {
     width: 12px;
     height: 85px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     position: absolute;
     top: 32px;
@@ -737,7 +749,7 @@ body {
 }
 
 .u .bottom {
-border: 12px solid pink;
+border: 12px solid lime;
     opacity: 0.45;
     border-radius: 0 300% 300% 0 /0 180% 180% 0;
     width: 39px;
@@ -763,7 +775,7 @@ border: 12px solid pink;
 .u .left {
     width: 11.5px;
     height: 52px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     position: absolute;
     border-bottom-left-radius: 1px;
@@ -775,7 +787,7 @@ border: 12px solid pink;
 .u .right {
     width: 11.5px;
     height: 52px;
-    background-color: lime;
+    background-color: yellow;
     border-bottom-right-radius: 1px;
     opacity: 0.4;
     position: absolute;
@@ -793,7 +805,7 @@ border: 12px solid pink;
 .v .left {
     width: 12px;
     height: 99px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(8deg);
@@ -821,10 +833,10 @@ border: 12px solid pink;
 .w .left {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     position: absolute;
     opacity: 0.4;
-    left: 4px;
+    left: 2px;
     top: 20px;
 }
 
@@ -832,7 +844,7 @@ border: 12px solid pink;
     width: 12px;
     height: 99px;
     position: absolute;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     right: -2px;
     top: 20px;
@@ -852,7 +864,7 @@ border: 12px solid pink;
 .w .bottom {
     width: 12px;
     height: 55px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(21deg);
@@ -868,7 +880,7 @@ border: 12px solid pink;
 .x .left {
     width: 12px;
     height: 97px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(18deg);
@@ -906,7 +918,7 @@ border: 12px solid pink;
 .y .left {
     width: 12px;
     height: 36px;
-    background-color: fuchsia;
+    background-color: blue;
     opacity: 0.45;
     position: absolute;
     transform: skew(18deg);
@@ -956,7 +968,7 @@ border: 12px solid pink;
 }
 
 .zero .whole {
-    border: 13px solid mediumorchid;
+    border: 13px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 35px;
@@ -974,7 +986,7 @@ border: 12px solid pink;
 .one .whole {
     width: 12px;
     height: 99px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.45;
     position: absolute;
     left: 10px;
@@ -987,7 +999,7 @@ border: 12px solid pink;
 }
 
 .two .top {
-    border: 12px solid crimson;
+    border: 12px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 22px;
@@ -1036,7 +1048,7 @@ border: 12px solid pink;
 }
 
 .three .top {
-    border: 12px solid crimson;
+    border: 12px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 22px;
@@ -1047,7 +1059,7 @@ border: 12px solid pink;
 }
 
 .three .bottom {
-    border: 12px solid gold;
+    border: 12px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 32px;
@@ -1077,7 +1089,7 @@ border: 12px solid pink;
 .four .left {
     width: 11px;
     height: 40px;
-    background-color: deeppink;
+    background-color: yellow;
     opacity: 0.4;
     position: absolute;
     top: 20px;
@@ -1087,7 +1099,7 @@ border: 12px solid pink;
 .four .right {
     width: 11px;
     height: 97px;
-    background-color: lime;
+    background-color: yellow;
     opacity: 0.4;
     position: absolute;
     top: 20px;
@@ -1123,7 +1135,7 @@ border: 12px solid pink;
 .five .middle {
     width: 12px;
     height: 55.5px;
-    background-color: deeppink;
+    background-color: yellow;
     opacity: 0.4;
     position: absolute;
     top: 20px;
@@ -1134,7 +1146,7 @@ border: 12px solid pink;
     width: 32px;
     height: 33px;
     border-radius: 50%;
-    border: 12px solid gold;
+    border: 12px solid fuchsia;
     border-left-color: white;
     transform: rotate(23deg);
     opacity: 0.4;
@@ -1162,7 +1174,7 @@ border: 12px solid pink;
 .six .bottom {
     width:30px;
     height: 32px;
-    border: 12px solid gold;
+    border: 12px solid fuchsia;
     border-radius: 50%;
     opacity: 0.4;
     position: absolute;
@@ -1204,7 +1216,7 @@ border: 12px solid pink;
 .eight .top {
     width: 25px;
     height: 25px;
-    border: 11px solid crimson;
+    border: 11px solid fuchsia;
     border-radius: 50%;
     opacity: 0.4;
     position: absolute;
@@ -1214,7 +1226,7 @@ border: 12px solid pink;
 .eight .bottom {
     width: 32px;
     height: 34px;
-    border: 12px solid gold;
+    border: 12px solid fuchsia;
     border-radius: 50%;
     opacity: 0.4;
     position: absolute;
@@ -1230,7 +1242,7 @@ border: 12px solid pink;
 .nine .top {
     width:30px;
     height: 32px;
-    border: 12px solid crimson;
+    border: 12px solid fuchsia;
     border-radius: 50%;
     opacity: 0.4;
     position: absolute;
@@ -1257,7 +1269,7 @@ border: 12px solid pink;
 .period .whole {
     width: 11px;
     height: 11px;
-    background-color: orangered;
+    background-color: bluered;
     border-radius: 50%;
     position: absolute;
     opacity: 0.5;
@@ -1273,7 +1285,7 @@ border: 12px solid pink;
 .comma .top {
     width: 11px;
     height: 11px;
-    background-color: orangered;
+    background-color: bluered;
     border-radius: 50%;
     position: absolute;
     top:105px;
@@ -1300,7 +1312,7 @@ border: 12px solid pink;
 .exclamation .top {
     width: 10px;
     height: 78px;
-    background-color: lime;
+    background-color: yellow;
     position: absolute;
     top: 20px;
     left: 7px;
@@ -1310,7 +1322,7 @@ border: 12px solid pink;
 .exclamation .bottom {
     width: 11px;
     height: 11px;
-    background-color: orangered;
+    background-color: bluered;
     border-radius: 50%;
     position: absolute;
     top:105px;
@@ -1324,7 +1336,7 @@ border: 12px solid pink;
 }
 
 .question .top {
-    border: 11px solid crimson;
+    border: 11px solid fuchsia;
     opacity: 0.45;
     border-radius: 50%;
     width: 22px;
@@ -1346,7 +1358,7 @@ border: 12px solid pink;
 .question .middle {
     width: 10px;
     height: 42px;
-    background-color: deeppink;
+    background-color: yellow;
     position: absolute;
     top: 56px;
     left: 24px;
@@ -1355,7 +1367,7 @@ border: 12px solid pink;
 .question .bottom {
     width: 11px;
     height: 11px;
-    background-color: orangered;
+    background-color: bluered;
     border-radius: 50%;
     position: absolute;
     top:105px;
